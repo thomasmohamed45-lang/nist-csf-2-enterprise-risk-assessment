@@ -1,0 +1,91 @@
+﻿PROJECT CHARTER
+NIST CSF 2.0 ENTERPRISE CYBERSECURITY RISK ASSESSMENT
+
+Organization: Pine Ridge Logistics, Inc.
+Assessment Type: Simulated Enterprise Cybersecurity Risk Assessment
+Framework: NIST Cybersecurity Framework (CSF) 2.0
+Supporting Guidance: NIST SP 800-30 Rev. 1
+Assessment Status: In Progress
+
+1. ORGANIZATIONAL OVERVIEW
+
+Pine Ridge Logistics, Inc. is a fictional regional logistics and distribution company operating three warehouses in the southeastern United States. The organization employs approximately 250 personnel and relies on technology to support warehouse operations, transportation, financial processing, customer service, and workforce management.
+
+Its technology environment includes Microsoft 365, Microsoft Azure, Windows-based systems, an enterprise resource planning (ERP) platform, a transportation management system (TMS), fleet telematics, and third-party service providers.
+
+2. ASSESSMENT PURPOSE
+
+The purpose of this assessment is to evaluate the organization's cybersecurity risk posture, identify potential security gaps, document enterprise risks, and recommend practical risk treatment strategies.
+
+The assessment will use NIST CSF 2.0 to organize cybersecurity outcomes and NIST SP 800-30 Rev. 1 as supporting guidance for risk assessment activities.
+
+3. ASSESSMENT OBJECTIVES
+
+- Identify critical business assets and supporting technology.
+- Identify relevant cybersecurity threats and vulnerabilities.
+- Evaluate potential likelihood and business impact.
+- Develop a documented enterprise cybersecurity risk register.
+- Establish a simulated current-state and target-state CSF profile.
+- Identify cybersecurity gaps and prioritize remediation.
+- Present actionable recommendations to organizational leadership.
+
+4. SCOPE
+
+The simulated assessment covers:
+
+- Microsoft 365 and organizational identities.
+- Microsoft Azure resources.
+- Windows-based endpoints and servers.
+- ERP and transportation management systems.
+- Warehouse technology and operations.
+- Fleet management and telematics systems.
+- Customer, employee, and financial information.
+- Third-party vendors and external integrations.
+- Security governance, policies, and incident response processes.
+
+5. ORGANIZATIONAL ASSUMPTIONS
+
+- Approximately 250 employees.
+- Three warehouse locations.
+- A three-person IT/security team.
+- Approximately 15 third-party technology or service providers.
+- Microsoft cloud services support daily business operations.
+- Logistics and warehouse operations depend on system availability.
+- The organization maintains sensitive customer, employee, and financial information.
+
+6. ASSESSMENT LIMITATIONS
+
+This is a simulated portfolio project involving a fictional organization. No actual Pine Ridge Logistics systems, employees, vendors, or production environments exist or have been assessed.
+
+Risk ratings, control observations, and organizational conditions will be developed as documented assessment assumptions for demonstration and educational purposes.
+
+This project is not an independent audit, penetration test, compliance certification, or formal attestation of any real organization's security posture.
+
+7. EXPECTED DELIVERABLES
+
+- Project charter and assessment scope.
+- Enterprise asset inventory.
+- Risk assessment methodology.
+- NIST CSF 2.0 current and target profiles.
+- Enterprise cybersecurity risk register.
+- Risk treatment and remediation plan.
+- Executive summary and risk prioritization.
+- Supporting assessment evidence and documentation.
+
+8. ASSESSMENT APPROACH
+
+The assessment will be organized around the six NIST CSF 2.0 Functions:
+
+GOVERN
+IDENTIFY
+PROTECT
+DETECT
+RESPOND
+RECOVER
+
+A documented project-specific risk scoring methodology will be used to prioritize identified risks. The scoring formula will be defined separately and will not be represented as a formula prescribed by NIST.
+
+9. PROJECT STATUS
+
+Phase 1: Project initiation and scope definition.
+Current status: Charter drafted.

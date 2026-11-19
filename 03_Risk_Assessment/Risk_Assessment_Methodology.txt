@@ -1,0 +1,162 @@
+﻿RISK ASSESSMENT METHODOLOGY
+PINE RIDGE LOGISTICS, INC.
+NIST CSF 2.0 ENTERPRISE CYBERSECURITY RISK ASSESSMENT
+
+1. PURPOSE
+
+This document establishes the methodology used to identify, analyze, evaluate, and prioritize cybersecurity risks within the simulated Pine Ridge Logistics environment.
+
+The methodology is informed by NIST SP 800-30 Rev. 1 and organized using the NIST Cybersecurity Framework (CSF) 2.0.
+
+The numerical scoring model below is a project-defined approach. It is not a scoring formula prescribed by NIST.
+
+2. RISK ASSESSMENT PROCESS
+
+The assessment follows these activities:
+
+1. Identify organizational assets and business processes.
+2. Identify relevant threat events.
+3. Identify vulnerabilities and predisposing conditions.
+4. Estimate the likelihood of each threat event.
+5. Estimate the potential business impact.
+6. Determine inherent risk.
+7. Identify existing or assumed security controls.
+8. Determine residual risk after considering controls.
+9. Recommend risk treatment actions.
+10. Prioritize remediation based on risk exposure.
+
+3. LIKELIHOOD SCALE
+
+Likelihood measures how plausible it is that a threat event could occur under the assessed conditions.
+
+1 - RARE
+The event is highly unlikely. Significant barriers or effective safeguards may make occurrence improbable.
+
+2 - UNLIKELY
+The event is possible but not expected under normal conditions.
+
+3 - POSSIBLE
+The event could occur. Relevant threats or weaknesses may exist.
+
+4 - LIKELY
+The event is expected to occur in some circumstances. Relevant exposure or weaknesses are significant.
+
+5 - ALMOST CERTAIN
+The event is highly expected or may occur frequently due to substantial exposure or known recurring conditions.
+
+4. IMPACT SCALE
+
+Impact measures the potential consequences if a threat event occurs.
+
+Impact considers:
+- Confidentiality: Unauthorized disclosure of information.
+- Integrity: Unauthorized modification or destruction of information.
+- Availability: Disruption or loss of access to systems and services.
+- Financial losses.
+- Operational disruption.
+- Legal or regulatory consequences.
+- Reputational damage.
+- Potential safety consequences where applicable.
+
+1 - NEGLIGIBLE
+Minimal disruption, limited data exposure, and negligible financial or operational consequences.
+
+2 - MINOR
+Limited disruption affecting a small number of users or a noncritical business process.
+
+3 - MODERATE
+Noticeable disruption to a business function, recoverable data exposure, or meaningful financial impact.
+
+4 - MAJOR
+Significant operational disruption, sensitive information exposure, substantial financial loss, or serious compliance consequences.
+
+5 - SEVERE
+Organization-wide disruption, compromise of highly sensitive information, major financial damage, prolonged service outage, or potentially serious safety consequences.
+
+5. RISK SCORING FORMULA
+
+Risk Score = Likelihood x Impact
+
+Both likelihood and impact are rated on a scale from 1 through 5.
+
+The resulting numerical score ranges from 1 through 25.
+
+6. RISK RATING THRESHOLDS
+
+1-4: LOW
+Manage through routine security practices and periodic monitoring.
+
+5-9: MODERATE
+Document the risk and establish appropriate mitigation or monitoring activities.
+
+10-16: HIGH
+Prioritize risk treatment and assign an accountable owner and target completion date.
+
+17-25: CRITICAL
+Escalate to organizational leadership for urgent review and treatment decisions.
+
+7. INHERENT RISK
+
+Inherent risk represents the estimated risk before considering the effect of existing security controls.
+
+Inherent Risk Score = Inherent Likelihood x Inherent Impact
+
+8. RESIDUAL RISK
+
+Residual risk represents the remaining risk after considering the effectiveness of existing or assumed security controls.
+
+Residual Risk Score = Residual Likelihood x Residual Impact
+
+Residual scores must be supported by documented control assumptions. Controls will not automatically reduce risk merely because they are listed.
+
+9. RISK TREATMENT OPTIONS
+
+ACCEPT
+Management formally acknowledges and accepts the risk.
+
+MITIGATE
+Implement safeguards to reduce likelihood, impact, or both.
+
+TRANSFER
+Shift or share some financial or contractual consequences through mechanisms such as insurance or vendor agreements. Accountability for the risk may remain.
+
+AVOID
+Discontinue or change the activity that creates the exposure.
+
+10. RISK OWNERSHIP
+
+Each identified risk will have:
+- A unique risk identifier.
+- An affected asset or business process.
+- A documented threat event.
+- An identified vulnerability or predisposing condition.
+- Likelihood and impact ratings.
+- An inherent risk score and rating.
+- Existing or assumed control information.
+- A residual risk score and rating.
+- A recommended treatment strategy.
+- An accountable risk owner.
+- A target remediation date.
+
+11. ASSESSMENT ASSUMPTIONS AND LIMITATIONS
+
+Pine Ridge Logistics is fictional. No actual systems, vulnerabilities, incidents, or security controls have been independently verified.
+
+Risk ratings and control descriptions will be identified as simulated assessment assumptions.
+
+The scoring model provides a consistent prioritization method for this portfolio exercise. Numerical scores do not represent objectively measured probabilities or guaranteed financial losses.
+
+12. FRAMEWORK ALIGNMENT
+
+NIST CSF 2.0 Functions:
+
+GOVERN
+IDENTIFY
+PROTECT
+DETECT
+RESPOND
+RECOVER
+
+Supporting reference:
+NIST Special Publication 800-30 Revision 1,
+Guide for Conducting Risk Assessments.

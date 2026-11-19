@@ -1,0 +1,129 @@
+﻿PINE RIDGE LOGISTICS, INC.
+EXECUTIVE CYBERSECURITY RISK SUMMARY
+NIST CSF 2.0 ENTERPRISE RISK ASSESSMENT
+
+Prepared: 2026-11-17
+Assessment Type: Fictional enterprise simulation
+Status: Preliminary - Not independently validated
+
+==================================================
+1. EXECUTIVE OVERVIEW
+==================================================
+
+This simulated assessment evaluates ten cybersecurity
+risk scenarios affecting critical business systems
+at Pine Ridge Logistics, Inc.
+
+The assessment uses NIST CSF 2.0 as its organizational
+framework and a project-defined likelihood-impact
+scoring methodology informed by NIST SP 800-30 Rev. 1.
+
+All ratings and existing controls are hypothetical.
+No production systems were accessed or tested.
+
+==================================================
+2. ENTERPRISE RISK EXPOSURE
+==================================================
+
+Total risks assessed: 10
+
+Inherent Critical risks: 6
+
+Estimated residual risk distribution:
+Critical: 1
+High: 8
+Moderate: 1
+
+Residual ratings are conditional estimates based
+on assumed security controls, not verified results.
+
+==================================================
+3. TOP PRIORITY CYBERSECURITY RISKS
+==================================================
+
+RSK-008 - Backup data is deleted or encrypted during a ransomware incident
+Residual risk: 20/25 (Critical)
+Accountable owner: IT Manager
+Recommended action: Implement immutable or offline backups; isolate backup administration; perform full restoration exercises.
+Proposed timeline: Proposed: 0-30 days after approval
+
+RSK-001 - Phishing compromises an employee Microsoft 365 account
+Residual risk: 16/25 (High)
+Accountable owner: IT Security Lead
+Recommended action: Enforce phishing-resistant MFA for high-risk accounts; configure Conditional Access; monitor suspicious sign-ins.
+Proposed timeline: Proposed: 0-60 days after approval
+
+RSK-006 - Transportation management system becomes unavailable
+Residual risk: 16/25 (High)
+Accountable owner: Logistics Director
+Recommended action: Establish tested TMS recovery procedures; evaluate failover capability; define approved recovery objectives.
+Proposed timeline: Proposed: 0-60 days after approval
+
+RSK-007 - Customer information database is accessed without authorization
+Residual risk: 15/25 (High)
+Accountable owner: IT Security Lead
+Recommended action: Strengthen database least privilege; monitor sensitive queries; review access and data protection controls.
+Proposed timeline: Proposed: 0-60 days after approval
+
+RSK-004 - Ransomware compromises Windows domain controllers
+Residual risk: 15/25 (High)
+Accountable owner: IT Manager
+Recommended action: Harden domain controllers; restrict administrative access; improve endpoint detection and network segmentation.
+Proposed timeline: Proposed: 0-60 days after approval
+
+
+==================================================
+4. NIST CSF 2.0 ASSESSMENT COVERAGE
+==================================================
+
+Framework categories documented: 22
+
+Categories with assumed practices: 8
+Categories with insufficient evidence: 4
+Categories requiring broader assessment: 10
+
+These categories do not represent measured
+compliance percentages or confirmed deficiencies.
+
+==================================================
+5. MANAGEMENT RECOMMENDATIONS
+==================================================
+
+1. Prioritize ransomware-resistant backup protection
+   and documented restoration testing.
+
+2. Validate high-risk identity and access controls,
+   including privileged access and MFA.
+
+3. Strengthen monitoring and operational resilience
+   for enterprise cloud and logistics systems.
+
+4. Review third-party security assurance and
+   incident notification requirements.
+
+5. Collect evidence before confirming control
+   effectiveness or updating residual risk scores.
+
+==================================================
+6. EXECUTIVE DECISIONS REQUESTED
+==================================================
+
+- Review and approve proposed risk treatment priorities.
+- Confirm accountable risk owners.
+- Establish organizational risk acceptance thresholds.
+- Allocate resources for security improvements.
+- Authorize evidence collection and control validation.
+
+==================================================
+7. ASSESSMENT LIMITATIONS
+==================================================
+
+This portfolio project models a fictional organization.
+
+It is not an independent audit, penetration test,
+NIST certification, or compliance attestation.
+
+The report makes no claim that proposed remediation
+has been approved or implemented.
+
+END OF REPORT

@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pine Ridge Logistics - Cybersecurity Risk Heatmap</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fa;
+    color: #17243a;
+    margin: 30px;
+}
+
+header {
+    background: #142b49;
+    color: white;
+    padding: 26px;
+    border-radius: 12px;
+}
+
+h1 { margin: 0 0 8px; }
+h2 { font-size: 20px; }
+
+.subtitle { color: #c8d5e5; }
+
+.summary {
+    display: flex;
+    gap: 16px;
+    margin: 22px 0;
+}
+
+.metric {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    flex: 1;
+    border: 1px solid #dce3ec;
+}
+
+.metric strong {
+    display: block;
+    font-size: 28px;
+    margin-top: 6px;
+}
+
+.matrices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+}
+
+section {
+    background: white;
+    padding: 18px;
+    border-radius: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 3px solid white;
+    padding: 8px 3px;
+}
+
+th { background: #e8eef6; }
+
+td { height: 62px; }
+
+.low { background: #d9eedb; }
+.moderate { background: #ffe9a6; }
+.high { background: #ffc38b; }
+.critical { background: #ff9f9a; }
+
+.score {
+    display: block;
+    font-size: 12px;
+    opacity: 0.65;
+}
+
+.ids {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.note {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #4d5d70;
+}
+
+@media (max-width: 950px) {
+    .matrices { grid-template-columns: 1fr; }
+}
+
+@media print {
+    body { background: white; margin: 12px; }
+    .matrices { grid-template-columns: 1fr 1fr; }
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1>Enterprise Cybersecurity Risk Assessment</h1>
+<div>Pine Ridge Logistics, Inc.</div>
+<div class="subtitle">NIST CSF 2.0 | Fictional Enterprise Simulation</div>
+</header>
+
+<div class="summary">
+<div class="metric">Risk Scenarios<strong>10</strong></div>
+<div class="metric">Inherent Critical<strong>6</strong></div>
+<div class="metric">Residual Critical<strong>1</strong></div>
+</div>
+
+<div class="matrices">
+<section><h2>Inherent Risk</h2><table><thead><tr><th>Likelihood / Impact</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead><tbody><tr><th>5</th><td class='moderate'><span class='score'>5</span><span class='ids'></span></td><td class='high'><span class='score'>10</span><span class='ids'></span></td><td class='high'><span class='score'>15</span><span class='ids'></span></td><td class='critical'><span class='score'>20</span><span class='ids'>RSK-001</span></td><td class='critical'><span class='score'>25</span><span class='ids'></span></td></tr><tr><th>4</th><td class='low'><span class='score'>4</span><span class='ids'></span></td><td class='moderate'><span class='score'>8</span><span class='ids'></span></td><td class='high'><span class='score'>12</span><span class='ids'></span></td><td class='high'><span class='score'>16</span><span class='ids'>RSK-006</span></td><td class='critical'><span class='score'>20</span><span class='ids'>RSK-002<br>RSK-003<br>RSK-004<br>RSK-007<br>RSK-008</span></td></tr><tr><th>3</th><td class='low'><span class='score'>3</span><span class='ids'></span></td><td class='moderate'><span class='score'>6</span><span class='ids'></span></td><td class='moderate'><span class='score'>9</span><span class='ids'></span></td><td class='high'><span class='score'>12</span><span class='ids'>RSK-009<br>RSK-010</span></td><td class='high'><span class='score'>15</span><span class='ids'>RSK-005</span></td></tr><tr><th>2</th><td class='low'><span class='score'>2</span><span class='ids'></span></td><td class='low'><span class='score'>4</span><span class='ids'></span></td><td class='moderate'><span class='score'>6</span><span class='ids'></span></td><td class='moderate'><span class='score'>8</span><span class='ids'></span></td><td class='high'><span class='score'>10</span><span class='ids'></span></td></tr><tr><th>1</th><td class='low'><span class='score'>1</span><span class='ids'></span></td><td class='low'><span class='score'>2</span><span class='ids'></span></td><td class='low'><span class='score'>3</span><span class='ids'></span></td><td class='low'><span class='score'>4</span><span class='ids'></span></td><td class='moderate'><span class='score'>5</span><span class='ids'></span></td></tr></tbody></table></section>
+<section><h2>Residual Risk</h2><table><thead><tr><th>Likelihood / Impact</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead><tbody><tr><th>5</th><td class='moderate'><span class='score'>5</span><span class='ids'></span></td><td class='high'><span class='score'>10</span><span class='ids'></span></td><td class='high'><span class='score'>15</span><span class='ids'></span></td><td class='critical'><span class='score'>20</span><span class='ids'></span></td><td class='critical'><span class='score'>25</span><span class='ids'></span></td></tr><tr><th>4</th><td class='low'><span class='score'>4</span><span class='ids'></span></td><td class='moderate'><span class='score'>8</span><span class='ids'></span></td><td class='high'><span class='score'>12</span><span class='ids'></span></td><td class='high'><span class='score'>16</span><span class='ids'>RSK-001<br>RSK-006</span></td><td class='critical'><span class='score'>20</span><span class='ids'>RSK-008</span></td></tr><tr><th>3</th><td class='low'><span class='score'>3</span><span class='ids'></span></td><td class='moderate'><span class='score'>6</span><span class='ids'></span></td><td class='moderate'><span class='score'>9</span><span class='ids'></span></td><td class='high'><span class='score'>12</span><span class='ids'>RSK-009</span></td><td class='high'><span class='score'>15</span><span class='ids'>RSK-002<br>RSK-003<br>RSK-004<br>RSK-007</span></td></tr><tr><th>2</th><td class='low'><span class='score'>2</span><span class='ids'></span></td><td class='low'><span class='score'>4</span><span class='ids'></span></td><td class='moderate'><span class='score'>6</span><span class='ids'></span></td><td class='moderate'><span class='score'>8</span><span class='ids'>RSK-010</span></td><td class='high'><span class='score'>10</span><span class='ids'>RSK-005</span></td></tr><tr><th>1</th><td class='low'><span class='score'>1</span><span class='ids'></span></td><td class='low'><span class='score'>2</span><span class='ids'></span></td><td class='low'><span class='score'>3</span><span class='ids'></span></td><td class='low'><span class='score'>4</span><span class='ids'></span></td><td class='moderate'><span class='score'>5</span><span class='ids'></span></td></tr></tbody></table></section>
+</div>
+
+<p class="note">
+Likelihood increases upward; impact increases to the right.
+Cell numbers represent likelihood multiplied by impact.
+Risk IDs indicate where individual scenarios are positioned.
+Scoring is project-defined and based on hypothetical assumptions.
+No live security controls were independently assessed.
+</p>
+
+</body>
+</html>
