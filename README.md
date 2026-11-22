@@ -166,3 +166,30 @@ Example talking points:
 CompTIA Security+
 M.S. Cybersecurity Technology Candidate
 GitHub Portfolio Project
+
+## Hands-On Nessus Vulnerability Assessment
+
+This project includes a technical vulnerability assessment
+performed using Tenable Nessus Essentials against an
+isolated Metasploitable 2 training VM.
+
+### Technical Assessment Highlights
+
+- Network vulnerability scanning using Nessus Essentials
+- TCP service discovery and vulnerability analysis
+- Five documented findings: four Critical and one High
+- CVE research and remediation recommendations
+- Scanner evidence supporting each documented finding
+- Mapping of selected findings to NIST CSF 2.0
+
+The assessment includes weaknesses involving VNC
+authentication, an exposed bind shell, legacy SSL
+protocols, an unsupported operating system, and Samba.
+
+These findings are from an intentionally vulnerable
+training VM, not Pine Ridge Logistics. No remediation
+or post-remediation validation is claimed.
+
+### Explore the Technical Assessment
+
+[View the Nessus Vulnerability Assessment](10_Lab_Vulnerability_Assessment/README.md)
